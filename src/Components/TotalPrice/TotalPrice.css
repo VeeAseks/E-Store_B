@@ -1,0 +1,15 @@
+.total-price-container {
+  position: fixed; /* Fixed position at the top-right corner */
+  top: 10px; /* Position at the top */
+  right: 10px; /* Position at the right */
+  background: #f8f9fa; /* Light gray background */
+  padding: 10px; /* Padding for comfort */
+  border: 1px solid #ddd; /* Border for definition */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+  display: none; /* Hidden by default */
+}
+
+.total-price-container.show {
+  display: block; /* Show when needed */
+}

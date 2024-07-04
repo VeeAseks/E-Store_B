@@ -1,0 +1,79 @@
+/* Container for the login section */
+.loginsignup {
+    width: 100%;
+    height: 70vh;
+    background: #fce3f3; /* Light pink background */
+    padding: 100px; /* Padding around the container */
+  }
+  
+  /* Container for the login form */
+  .loginsignup-container {
+    max-width: 400px; /* Maximum width for the login form */
+    height: 600px; /* Height for the container */
+    background: white; /* White background */
+    margin: auto; /* Center the container */
+    padding: 40px 60px; /* Padding around the container */
+  }
+  
+  /* Header for the login form */
+  .loginsignup-container h1 {
+    margin: 20px 0; /* Margin around the header */
+    font-size: 24px; /* Larger font size */
+  }
+  
+  /* Container for input fields */
+  .loginsignup-fields {
+    display: flex; /* Flexbox layout */
+    flex-direction: column; /* Align vertically */
+    gap: 20px; /* Space between fields */
+    margin-top: 20px; /* Space at the top */
+  }
+  
+  /* Input field styling */
+  .loginsignup-fields input {
+    height: 50px; /* Height of input fields */
+    padding: 10px; /* Padding inside inputs */
+    border: 1px solid #c9c9c9; /* Light gray border */
+    outline: none; /* No default outline */
+    color: #5c5c5c; /* Medium gray text color */
+    font-size: 16px; /* Default font size */
+  }
+  
+  /* Button styling for login */
+  .loginsignup-container button {
+    width: 100%; /* Full width */
+    height: 50px; /* Button height */
+    color: white; /* White text */
+    background: #ff4141; /* Red background color */
+    margin-top: 20px; /* Space at the top */
+    border: none; /* No border */
+    font-size: 18px; /* Font size for the button */
+    font-weight: 500; /* Font weight */
+    cursor: pointer; /* Pointer cursor */
+  }
+  
+  /* Styling for "Sign In" link */
+  .loginsignup-login {
+    margin-top: 15px; /* Space above the "Sign In" link */
+    color: #5c5c5c; /* Medium gray text color */
+    font-size: 16px; /* Default font size */
+    font-weight: 500; /* Font weight */
+    cursor: pointer; /* Pointer cursor */
+  }
+  
+  .loginsignup-login span {
+    color: #ff4141; /* Red text color */
+    font-weight: 600; /* Bold text */
+  }
+  
+  /* Styling for agreement section */
+  .loginsignup-agree {
+    display: flex; /* Flexbox layout */
+    align-items: center; /* Align vertically */
+    margin-top: 15px; /* Space at the top */
+    gap: 10px; /* Space between elements */
+    color: #5c5c5c; /* Medium gray text color */
+    font-size: 16px; /* Default font size */
+    font-weight: 500; /* Font weight */
+  }
+  

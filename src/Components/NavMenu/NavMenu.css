@@ -1,0 +1,65 @@
+/* Base styles for the navbar */
+.navbar {
+  display: flex; /* Flex layout */
+  justify-content: space-between; /* Space between logo and cart */
+  align-items: center; /* Vertical alignment */
+  padding: 15px 25px; /* Padding around the navbar */
+  background-color: hsl(165, 49%, 28%); /* Dark green background color */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.nav-logo {
+  display: flex; /* Flex layout */
+  align-items: center; /* Align items vertically */
+  gap: 10px; /* Spacing between logo and text */
+}
+
+.nav-logo img {
+  height: 300px; /* Fixed height for the logo */
+  width: auto; /* Maintain aspect ratio */
+}
+
+/* Styles for the navigation links */
+.nav-menu {
+  display: flex; /* Flex layout for the links */
+  justify-content: center; /* Center the navigation links */
+  list-style: none; /* No default list style */
+  gap: 20px; /* Space between links */
+  padding: 0; /* No additional padding */
+  margin: 0;
+  font-size: 18px; /* Standard font size */
+  text-decoration: none; /* Remove underline */
+  color: white; /* White text */
+}
+
+.nav-menu li {
+  text-align: center; /* Center-align list items */
+  padding: 5px 10px; /* Padding for individual links */
+}
+
+/* Styles for the cart section */
+.nav-cart {
+  flex-shrink: 0; /* Prevent shrinking */
+}
+
+.nav-cart img {
+  height: 30px; /* Fixed height for the cart icon */
+  width: 30px; /* Maintain aspect ratio */
+  cursor: pointer; /* Pointer cursor for interactivity */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 10px; /* Reduced padding for smaller screens */
+  }
+
+  .nav-menu {
+    flex-direction: column; /* Vertical stacking */
+    gap: 10px; /* Smaller gap for vertical links */
+  }
+
+  .nav-cart {
+    margin-top: 10px; /* Space above the cart section */
+  }
+}

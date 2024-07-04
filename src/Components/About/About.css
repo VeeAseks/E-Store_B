@@ -1,0 +1,55 @@
+/* Main container styling */
+.about-container {
+  padding: 20px; /* Consistent padding throughout the component */
+  max-width: 800px; /* Set a maximum width for readability */
+  margin: auto; /* Center align the entire container */
+}
+
+/* Heading styling */
+.about-heading {
+  text-align: center; /* Center-align headings */
+  font-size: 2em; /* Larger font for emphasis */
+  color: #333; /* Dark text for visibility */
+  margin-bottom: 10px; /* Spacing below headings */
+}
+
+/* Paragraph styling */
+.about-paragraph {
+  text-align: justify; /* Justify text for a clean look */
+  line-height: 1.6; /* Increase line height for readability */
+  color: #555; /* Slightly lighter than headings */
+  margin-bottom: 20px; /* Spacing below paragraphs */
+}
+
+/* Figure styling */
+.figure {
+  display: flex; /* Flexbox for aligning figure elements */
+  justify-content: center; /* Center images within the container */
+  align-items: center; /* Align elements vertically */
+  margin: 20px 0; /* Spacing around figures */
+}
+
+/* Image styling within the figure */
+.figure-image {
+  border-radius: 5px; /* Rounded corners for a softer look */
+  transition: transform 0.3s; /* Smooth transition for hover effects */
+}
+
+/* Hover effect for images */
+.figure-image:hover {
+  transform: scale(1.1); /* Slight enlargement on hover */
+}
+
+/* Caption styling for the figure */
+.figure-caption {
+  text-align: center; /* Center-align figure captions */
+  color: #666; /* Lighter color for captions */
+  margin-top: 10px; /* Spacing between the image and caption */
+}
+
+/* Contact information styling */
+.contact-info {
+  text-align: center; /* Center-align contact information */
+  font-size: 1.2em; /* Slightly larger font for emphasis */
+  color: #333; /* Dark text for readability */
+}

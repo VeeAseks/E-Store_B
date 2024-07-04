@@ -1,0 +1,53 @@
+.home-container {
+  padding: 20px; /* Padding around the container */
+  text-align: center; /* Center-align content */
+}
+
+.input-field {
+  width: 200px; /* Fixed width for the input field */
+  padding: 10px; /* Padding for comfort */
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 5px; /* Rounded corners */
+  margin-bottom: 15px; /* Spacing below input field */
+}
+
+.login-button {
+  padding: 10px 20px; /* Padding for comfort */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  background-color: #28a745; /* Green for login button */
+  color: white; /* White text */
+  transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
+.login-button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+.logout-button {
+  padding: 10px 20px; /* Padding for comfort */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  background-color: #dc3545; /* Red for logout button */
+  color: white; /* White text */
+  transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
+.logout-button:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+
+.welcome-message {
+  font-size: 2em; /* Larger font size for emphasis */
+  color: #333; /* Dark text color */
+  margin-bottom: 20px; /* Spacing below the welcome message */
+}
+
+a {
+  color: #007bff; /* Blue for links */
+  text-decoration: none; /* No underline */
+}
+
+a:hover {
+  text-decoration: underline; /* Underline on hover */
+}

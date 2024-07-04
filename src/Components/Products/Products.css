@@ -1,0 +1,89 @@
+/* Container for the Products component */
+.products-container {
+  display: flex; /* Use flexbox for layout */
+  flex-wrap: wrap; /* Allow items to wrap for responsiveness */
+  justify-content: center; /* Center-align content */
+  padding: 20px; /* Padding around the container */
+  gap: 20px; /* Spacing between items */
+}
+
+/* Styling for product cards */
+.product-card {
+  width: 18rem; /* Fixed width for each card */
+  margin: 1rem; /* Spacing around each card */
+  transition: transform 0.3s; /* Smooth transition for hover effects */
+}
+
+/* Hover effect for product cards */
+.product-card:hover {
+  transform: scale(1.05); /* Slight enlargement on hover */
+}
+
+/* Styling for card images */
+.product-card img {
+  border-radius: 5px; /* Slight rounding of corners */
+  object-fit: cover; /* Ensure images fit within the card */
+  height: 150px; /* Set a fixed height for images */
+}
+
+/* Styling for card body */
+.product-card .card-body {
+  text-align: center; /* Center-align text within the card */
+  padding: 10px; /* Padding around the card body */
+}
+
+/* Styling for card title */
+.product-card .card-title {
+  font-size: 1.2em; /* Larger font size for the title */
+  font-weight: bold; /* Bold font for emphasis */
+  margin-bottom: 10px; /* Space between title and other elements */
+}
+
+/* Styling for card text */
+.product-card .card-text {
+  color: #333; /* Dark text color for visibility */
+  font-size: 1em; /* Standard font size */
+  margin-bottom: 10px; /* Space between text elements */
+}
+
+/* Styling for the dropdown button */
+.dropdown-button {
+  margin-top: 10px; /* Space between card elements */
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white; /* White text */
+  border: none; /* No border for a clean look */
+  border-radius: 5px; /* Slight rounding of corners */
+}
+
+/* Styling for the buy button */
+.buy-button {
+  margin-top: 10px; /* Space between card elements */
+  padding: 10px 20px; /* Padding for comfort */
+  background-color: #28a745; /* Bootstrap success color (green) */
+  color: white; /* White text */
+  border: none; /* No border for a clean look */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth transition for hover effects */
+}
+
+/* Hover effect for the buy button */
+.buy-button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+/* Styling for the TotalPrice component */
+.total-price-container {
+  position: fixed; /* Fixed position at the top-right corner */
+  top: 10px; /* Position at the top */
+  right: 10px; /* Position at the right */
+  background: #0de76f; /* Light gray background */
+  padding: 10px; /* Padding for comfort */
+  border: 1px solid #080808; /* Border for definition */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+  display: flex; /* Hidden by default */
+}
+
+.total-price-container.show {
+  display: block; /* Show when needed */
+}
